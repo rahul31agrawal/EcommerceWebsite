@@ -1,4 +1,5 @@
 @import "/cssFiles/productList.css";
+@import "/cart/cart.css";
 
 :root{
     --blue-color: #6976D9;
