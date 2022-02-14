@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="https://wizardui.netlify.app/styles.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2 class="logo"><a href="/index.html">Home</a></h2>
+
+        <div class="input-container">
+            <i class="fas fa-search icon"></i>
+            <input class="input-field" type="text" placeholder="Search" />
+        </div>
+
+        <div class="top-links">
+            <h2 class="btn"><a href="/product.html">Product</a></h2>
+            <h2 class="btn"><a href="#">Login</a></h2>
+
+            <div class="child-ecom">
+                <button onclick="location.href = '/cart/cart.html';" type="button" class="icon-button"><i class="fas fa-shopping-cart fa-3x"></i>
+                    <span class="icon-button__badge">2</span></button>
+            </div>
+
+            <div class="child-ecom">
+                <button type="button" class="icon-button"><i class="fas fa-heart fa-3x"></i>
+                    <span class="icon-button__badge">2</span></button>
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    <h1 class="page-title">My Cart</h1>
+    <div class="cart-container">
+        <div class="cart-products">
+            <div class="card5 horizontal-card-container">
+                <div class="card-img">
+                    <img class="horizontal-card-img" src="../pics/Ecomimage.jpg" alt="ecomimage" />
+                </div>
+                <div class="card-info">
+
+                    <h2 class="card-title">Eye Boggling tshirt</h2>
+                    <h3 class="subtitle">Tshirt</h3>
+                    <div class="card-body">
+                        <div class="price-details">
+                            <p class="disc-price"> ₹900</p>
+                            <p class="actual-price">₹1000</p>
+                            <p class="offer-info">(10% Off)</p>
+
+
+                        </div>
+                    </div>
+                    <div class="product-quantity">
+                        <p>Quantity:</p>
+                        <button class="btn minus-quantity"><i class="material-icons">remove</i></button>
+                        <input type="number" name="quantity" id="quantity" value="1">
+                        <button class="btn minus-quantity"><i class="material-icons">add</i></button>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="btn-link call-to-action">Remove from cart</button>
+                        <button class="btn-link not-call-to-action">Move to wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="cart-summary">
+            <div class="text-card">
+                <div class="card-title">
+                    PRICE DETAILS
+                </div>
+                <hr>
+                <div class="card-description">
+                    <div class="price">
+                        <p>Price (1 item)</p>
+                        <p>₹1000</p>
+                    </div>
+                    <div class="discount-price">
+                        <p>Discount</p>
+                        <p>-₹100</p>
+                    </div>
+                    <div class="delivery-charge">
+                        <p>Delivery Charges</p>
+                        <p>₹100</p>
+                    </div>
+                    <hr>
+                    <div class="total-amount">
+                        <p>TOTAL AMOUNT</p>
+                        <p>₹1000</p>
+                    </div>
+                    <hr>
+                    <div class="discount-msg">
+                        <p>You will save ₹100 on this order.</p>
+                    </div>
+                    <div class="cart-actions">
+                        <button class="btn btn-primary">
+                            PLACE ORDER
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+</body>
+
+</html>
