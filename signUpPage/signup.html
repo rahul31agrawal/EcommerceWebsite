@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="https://wizardui.netlify.app/styles.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2 class="logo"><a href="/index.html">Home</a></h2>
+
+        <div class="input-container">
+            <i class="fas fa-search icon"></i>
+            <input class="input-field" type="text" placeholder="Search" />
+        </div>
+
+        <div class="top-links">
+            <h2 class="btn"><a href="/product.html">Product</a></h2>
+            <h2 class="btn"><a href="#">Login</a></h2>
+
+            <div class="child-ecom">
+                <button onclick="location.href = '/cart/cart.html';" type="button" class="icon-button"><i class="fas fa-shopping-cart fa-3x"></i>
+                    <span class="icon-button__badge">2</span></button>
+            </div>
+
+            <div class="child-ecom">
+                <button onclick="location.href = '/wishlist/wishlist.html';" type="button" class="icon-button"><i class="fas fa-heart fa-3x"></i>
+                    <span class="icon-button__badge">2</span></button>
+            </div>
+
+        </div>
+
+
+    </nav>
+        <main class="main-container">
+            <div class="login-container">
+                <form action=""> 
+                    <div class="form-content">
+                     <h1 class="login-heading">Signup</h1>
+                     <label class = "label-position" for="email-id">Email address</label>
+                     <input class="user-input" type="email" name="" id="email-id" placeholder="enter your email">
+                     <label  class = "label-position" for="user-password">Password</label>
+                     <input class="user-input" type="password" name="" id="user-password" placeholder="enter your password">
+                     <div class = "rem-for">
+                     <input type="checkbox" name="remember-me" value="yes"><label for="remember-me"> I accept all Terms & Conditions</label>
+                     
+                     </div>
+                     <button id = "login-btn">Create new Account</button>
+                     <button id = "create-btn">Already have an Account ></button>
+                     </div>
+                  </form>
+            </div>
+        </main>
+    
+
+</body>
+
+</html>
