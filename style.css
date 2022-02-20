@@ -1,5 +1,6 @@
 @import "/cssFiles/productList.css";
 @import "/cart/cart.css";
+@import "/signInPage/signin.css";
 
 :root{
     --blue-color: #6976D9;
