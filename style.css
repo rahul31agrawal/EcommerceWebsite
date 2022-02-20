@@ -37,6 +37,8 @@
 .input-container {
     display: flex;
     position: relative;
+    background-color: white;
+    border-radius: .5rem;
 }
 .btn{
     padding: 0.1rem 1.2rem;
@@ -165,4 +167,8 @@ a{
 .collection-info>section>p {
     font-size: 1.125rem;
     line-height: 1.688rem;
+}
+
+#searchi{
+    padding: .6rem;
 }
