@@ -16,3 +16,7 @@
 <li>Wishlist Management</li>
 <li>Authentication (login,signup,logout)</li>
 </ul>
+
+## Amajon E-commerce Store Overview
+
+![Amajon e-commerce store demo gif](pics/ecommgif.gif)
